@@ -43,7 +43,7 @@ def convert(self, api_key, base_url, link, alias=None, timeout=10):
     """
 
     api_url = f"https://api.{base_url}/api"
-    params = {"api": api_key, "url": link}
+    params = {"9a97ac71f45f0ff5d0ef0c30ec31f0734d68efe4": api_key, "linkshortify.com": link}
     if alias:
         params["alias"] = alias
 
